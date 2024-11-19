@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(248, 248, 255, 0.562);
+}
+
+/* ------------------------------------------ */
+
+.container {
+    padding: 20px;
+}
+/* Navigation bar styling */
+.navbar .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+.navbar .logo {
+    line-height: 0.8;
+}
+.content ul {
+    display: flex;
+    gap: 50px;
+    color: rgba(248, 248, 255, 0.486);
+}
+.content img {
+    height: 20px;
+    margin-right: 20px;
+}
+
+/* Hero section styling */
+.title {
+    font-size: 19rem;
+    font-family: "Syne", sans-serif;
+    text-align: center;  
+    line-height: 0.8;
+    margin-top: 40px;
+}
+
+.hero .images {
+    display: inline-flex;
+    margin-left: 25px;
+}
+.hero .images .male-model {
+    border-radius: 25%;
+    height: 250px;
+    width: 250px;
+}
+.hero .images .female-model {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+.hero .images .catalog {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: rgb(21, 194, 21);
+    text-align: center;
+    z-index: -1;
+}
+.hero .images .catalog p{
+    padding-top: 15px;
+    font-family: "Syne", sans-serif;
+    font-size: 1.5rem;
+}
+.hero .images .catalog img {
+    padding-top: 80px;
+    height: 30px;
+}
+
+/* Explore collection section */
+.explore-collection {
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.explore-collection div {
+    background-color: rgba(63, 60, 60, 0.459);
+    border-radius: 20px;
+    height: 80px;
+    width: 350px;
+    padding: 30px;
+    color: rgba(248, 248, 255, 0.562);
+}
+.explore-collection div p {
+    font-size: 1.1rem;
+}
+.explore-collection .explore {
+    display: inline-flex;
+    gap: 15px;
+}
+.explore-collection .explore img {
+    height: 20px;
+}
+.explore-collection .explore p {
+    font-size: 1.5rem;
+    color: white;
+}
+.explore p, .explore img {
+    margin-top: 25px;
+}
+.explore p {
+    margin-left: 30px;
+}
+
+/* Last section */
+.last {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 100px 200px;
+}
+.last span {
+    color: yellow;
+}

@@ -79,11 +79,10 @@ a {
     text-align: center;
     z-index: -1;
 }
-.hero .images .catalog a{
+.hero .images .catalog p{
     padding-top: 15px;
     font-family: "Syne", sans-serif;
     font-size: 1.5rem;
-    color: white;
 }
 .hero .images .catalog img {
     padding-top: 80px;
@@ -115,14 +114,14 @@ a {
 .explore-collection .explore img {
     height: 20px;
 }
-.explore-collection .explore a {
+.explore-collection .explore p {
     font-size: 1.5rem;
     color: white;
 }
-.explore a, .explore img {
+.explore p, .explore img {
     margin-top: 25px;
 }
-.explore a {
+.explore p {
     margin-left: 30px;
 }
 

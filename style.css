@@ -65,11 +65,12 @@ a {
     border-radius: 25%;
     height: 250px;
     width: 250px;
+    object-fit: cover;
 }
 .hero .images .female-model {
     border-radius: 50%;
     height: 250px;
-    width: 250px;
+    width: 250px; object-fit: cover;
 }
 .hero .images .catalog {
     height: 250px;

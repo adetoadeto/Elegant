@@ -40,7 +40,7 @@ a {
 }
 .content ul {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     color: rgba(248, 248, 255, 0.486);
 }
 .content img {
@@ -70,7 +70,7 @@ a {
 .hero .images .female-model {
     border-radius: 50%;
     height: 250px;
-    width: 250px; object-fit: cover;
+    width: 250px;
 }
 .hero .images .catalog {
     height: 250px;
